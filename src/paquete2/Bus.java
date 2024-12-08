@@ -15,5 +15,11 @@ public class Bus extends Auto {
     public void acelerar() {
     System.out.println("Avanzo lento");
     }
-
+    public String getPlaca() {
+        return this.placa;
+    }
+    
+    public int getCapacidad() {
+        return this.capacidad;
+    }    
 }

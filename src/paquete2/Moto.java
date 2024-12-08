@@ -12,9 +12,15 @@ public class Moto extends Auto {
         this.modelo=modelo;
         this.pitar();
     }
-
     public void acelerar(){
         System.out.println("Avanzo muy rapido");
+    }
+    public String getPlaca() {
+        return this.placa;
+    }
+    
+    public String getModelo() {
+        return this.modelo;
     }
     
 }
